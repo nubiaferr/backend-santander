@@ -26,7 +26,7 @@ public class BootcampApplication {
 		return new OpenAPI()
 				.info(new Info()
 						.title(description)
-						.version(buildProps.getVersion())
+						.version("2.0")
 						.termsOfService("http://swagger.io/terms/")
 						.license(new License().name("Apache 2.0").url("http://springdoc.org")));
 	}
